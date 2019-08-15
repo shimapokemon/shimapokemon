@@ -1,0 +1,16 @@
+<div class="contents row">
+  <%= form_tag('/blogs', method: :post) do %>  
+    <h3>
+      ❤️！！燃料投下して！！❤️
+    </h3>
+    <input placeholder="アップしたい画像のImage URLを入　れ　て❤️" type="text" name="image" autofocus="true">
+    <textarea placeholder="貴方の思ってる事が聞きたい❤️" name="text" cols="30" rows="10"></textarea>
+    <input type="submit" value="燃料投下ボタンを押してみる">
+  <% end %>
+</div>
+
+<%# #ここ変えたから要注意 %>
+<%# <input placeholder="君の名は？" type="text" name="name">
+    <input placeholder="アップしたい画像を入　れ　て❤️" type="text" name="image">
+    <textarea cols="30" name="text" placeholder="貴方の思ってる事が聞きたい❤️" rows="10"></textarea>
+    <input type="submit" value="燃料投下ボタンを押してみる"> %>
